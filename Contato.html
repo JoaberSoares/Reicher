@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reicehrmann do Brasil</title>
+    <link
+      rel="shortcut icon"
+      href="./img/REICHERMANN.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/d175097808.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./stylecontato.css" />
+    <script defer src="./index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@100;300&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@100;300;500&family=Roboto+Condensed&family=Roboto:wght@100&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Unbounded:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styletwo.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;600&family=Lato:wght@100;400&family=Montserrat:wght@100;300&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@100;300;500&family=Roboto+Condensed&family=Roboto:wght@100&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Unbounded:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html"
+        ><img src="./img/logo_reichermann_footer_peq.png" alt="" class="logo"
+      /></a>
+      <div class="teste">
+        <button
+          class="btn-menu"
+          aria-label="abrir menu"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <spn class="hamburger"></spn>
+        </button>
+      </div>
+      <nav class="nav">
+        <ul class="menu" role="menu">
+          <li class="li">
+            <a class="anchor" href="./index.html">inicio</a>
+          </li>
+
+          <li class="li">
+            <a class="anchor" href="###">Certificações de Produtos</a>
+          </li>
+
+          <li class="li">
+            <a class="anchor" href="###">Serviços</a>
+
+            <ul class="subMenu">
+              <li class="li">
+                <a class="anchorSub" href="./INDEXme.html"
+                  >Certificação ANATEL</a
+                >
+              </li>
+              <li class="li">
+                <a class="anchorSub" href="#">Certificação INMETRO</a>
+              </li>
+              <li class="li">
+                <a class="anchorSub" href="#">Defesa técnica autuação IPEM</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="li">
+            <a class="anchor" href="###">Contato</a>
+          </li>
+
+          <li class="li">
+            <a class="anchor" href="###">Curso</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="headerinicio">
+      <div class="inicio"></div>
+    </section>
+
+    <section class="caixa">
+      <div>
+        <h2 class="TitleContatoReichermann">Contato</h2>
+      </div>
+
+      <div>
+        <p class="traço"></p>
+      </div>
+      <div class="DescricaoDoContato">
+        <p class="descricaoContatos">
+          Diga-nos o que você deseja saber sobre certificação de produtos e a
+          nossa equipe entrará em contato para discutir suas necessidades.
+          Preencha o formulário abaixo, ou entre em contato
+        </p>
+        <!--<p class="descricaoContatos">
+          Preencha o formulário abaixo, ou entre em contato
+        </p>-->
+      </div>
+    </section>
+
+    <section class="SectionContato">
+      <div class="divFormulario">
+        <form
+          class="FormContato"
+          action="https://api.staticforms.xyz/submit"
+          method="post"
+        >
+          <label class="label">Nome</label>
+          <input
+            class="input"
+            type="text"
+            name="name"
+            placeholder="Digite seu Nome"
+            required
+          />
+
+          <label class="label">Nome da Empresa</label>
+          <input
+            class="input"
+            type="text"
+            name="name"
+            placeholder="Digite nome da Empresa"
+            required
+          />
+
+          <label class="label">E-mail</label>
+          <input
+            class="input"
+            type="email"
+            name="email"
+            placeholder="Digite seu E-mail"
+            required
+          />
+
+          <label class="label">Telefone</label>
+          <input
+            class="input"
+            type="tel"
+            name="tel"
+            placeholder="Digite seu numero"
+            required
+          />
+
+          <label class="label">Mensagem</label>
+          <textarea
+            class="messagem"
+            name="message"
+            cols="20"
+            rows="5"
+            placeholder="Digite sua mensagem"
+            style="resize: none"
+          ></textarea>
+          <button class="buttonSumit" type="submit">Enviar</button>
+          <input
+            type="hidden"
+            name="accessKey"
+            value="d5c16656-aee3-48e7-a1f6-292ba67c73cd"
+          />
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="http://127.0.0.1:5500/index.html"
+          />
+        </form>
+
+        <section class="sidebarContato">
+          <div class="ContatoSide">
+            <h4 class="titleContato">
+              <i class="fa-solid fa-phone"></i>TELEFONE PARA CONTATO
+            </h4>
+            <p class="telefone">
+              <a class="numeroC" href="tel:11 2436-0670">11 2436-0670</a>
+            </p>
+
+            <h4 class="titleWhats">
+              <i class="fa-brands fa-whatsapp"></i>WHATSAPP
+            </h4>
+            <p class="telefone">
+              <a
+                class="numeroC"
+                href="https://web.whatsapp.com/send?phone=1199992-1117"
+                target="_blank"
+                >11 99992-1117</a
+              >
+            </p>
+
+            <h4 class="titleMail">
+              <i class="fa-regular fa-envelope"></i>E-MAIL
+            </h4>
+            <p class="Mail">
+              <a
+                class="Email"
+                href="mailto:diretoria@reichermann.com.br"
+                target="_blank"
+                >diretoria@reichermann.com.br</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a
+        class="whatsapp-link"
+        href="https://web.whatsapp.com/send?phone=11980662739"
+        target="_blank"
+      >
+        <i class="fa fa-whatsapp"></i>
+      </a>
+      <img
+        class="imgfooter"
+        src="./img/logo_reichermann_footer_peq.png"
+        alt=""
+      />
+      <p class="textfooterEnd">
+        Endereço:<span class="descricaoFooter">
+          Avenida Armando Bei - N° 1490 - Vila Nova Bonsucesso - Guarulhos/SP -
+          CEP: 07175-000</span
+        >
+      </p>
+      <p class="textfooterEnd2">
+        Tel.: +55 (11) 2436-0670 | Cel.: (11) 99992-1117 | E-mail:
+        diretoria@reichermann.com.br
+      </p>
+    </footer>
+  </body>
+</html>

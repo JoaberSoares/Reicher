@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inicio {
+  border: 1px solid transparent;
+  height: 12rem;
+  background-image: url(./img/1748665bbb2bfb675b0e2f87afa3260f.jpg);
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgba(47, 47, 51, 0.9);
+  background-position: center center;
+  background-blend-mode: overlay;
+  border-width: 0px;
+  border-color: rgb(234, 234, 234);
+}
+.caixa {
+  height: 7rem;
+  content: "";
+
+  /* left: 0;
+  right: 0;
+  bottom: 60px;
+  margin: 0 auto;
+  width: 100px;
+  height: 5px;
+  background: #791d1f;*/
+}
+.TitleContatoReichermann {
+  height: 7rem;
+  text-align: center;
+  margin-top: 30px;
+}
+.DescricaoDoContato {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 19px;
+}
+.descricaoContatos {
+  font-size: 17px;
+  font-family: "Poppins";
+  text-align: center;
+}
+.divFormulario {
+  gap: 25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.sidebarContato {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 40px;
+  background-color: #ffffff;
+  width: 20rem;
+  height: 30rem;
+}
+.ContatoSide {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.fa-solid {
+  color: #000000;
+  padding: 0.5rem;
+}
+.fa-brands {
+  color: #01fc2b;
+  padding: 0.6rem;
+  font-size: 20px;
+}
+.fa-regular {
+  padding: 0.6rem;
+}
+.titleMail {
+  margin-top: 50px;
+  margin-right: 9rem;
+}
+.Email {
+  text-decoration: none;
+  color: #817f7f;
+  font-family: "Inter";
+}
+.titleContato {
+  font-family: "Inter";
+}
+.titleWhats {
+  font-family: "Inter";
+  margin-top: 50px;
+}
+.titleWhats {
+  margin-right: 7.2rem;
+}
+.traço {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  margin: 0 auto;
+  width: 100px;
+  height: 2px;
+  background: #791d1f;
+}
+
+.SectionContato {
+  height: 100vh;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 45px;
+  /*background: #8a2d2d;*/
+}
+.ContatoSide {
+  display: flex;
+  flex-direction: column;
+}
+.telefone {
+  margin-right: 6.5rem;
+}
+.numeroC {
+  text-decoration: none;
+  color: #333;
+  font-family: "Inter";
+
+  font-size: 18px;
+}
+.FormContato {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 80px;
+}
+.input {
+  height: 40px;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: bold;
+  outline: none;
+}
+.label {
+  padding: 10px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: bold;
+}
+.messagem {
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.buttonSumit {
+  font-size: 15px;
+  font-family: "Poppins";
+  margin-top: 10px;
+  padding: 10px;
+  width: 400px;
+  background: transparent;
+  color: #000000;
+  transition: all 1s;
+  border-radius: 5px;
+}
+.buttonSumit:hover {
+  background: #afafaf;
+  color: #d10707;
+  border-radius: 16px;
+}

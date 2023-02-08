@@ -1,0 +1,415 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header {
+  background-color: #525252;
+  min-width: 100%;
+  display: flex;
+  min-height: 40px;
+  padding: 16px;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9px 15px;
+  border-bottom: 1px solid #bdbcbc;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+.anchor {
+  padding: 8px;
+  background-color: transparent;
+
+  border: 2px solid transparent;
+
+  cursor: pointer;
+  transition: 1s;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.anchor:hover {
+  border-bottom: 2px solid rgb(245, 39, 39);
+}
+
+.anchorSub {
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: bold;
+  transition: 1s;
+}
+.anchorSub:hover {
+  color: #fc1f10;
+}
+.subMenu {
+  background-color: #525252;
+  width: 110px;
+  height: 160px;
+  text-align: center;
+  border-radius: 5px;
+  left: 0;
+  opacity: 98%;
+}
+.li {
+  display: inline;
+  position: relative;
+}
+.subMenu {
+  display: none;
+  position: absolute;
+  
+}
+
+.li:hover .subMenu {
+  display: block;
+}
+.menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+.btn-menu {
+  display: none;
+}
+
+.ImgTop {
+  padding-top: 2em;
+  padding: 2em;
+  min-width: 1em;
+}
+
+.titleone {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  color: #ffff;
+}
+.textSecondary {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  color: #ffff;
+
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.TextPrimary {
+  text-align: center;
+}
+
+.textSecondary {
+  width: 90%;
+  text-align: center;
+  display: flex;
+}
+.contentPrimary {
+  background-color: rgba(47, 47, 51, 0.9);
+  background-image: url(./img/fundo1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  padding: 0px 30px;
+  /*margin-bottom: 0px;*/
+  margin-top: 20px;
+  border-width: 0px;
+  border-color: rgb(234, 234, 234);
+  border-style: solid;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fund1 {
+  border-radius: 10px;
+}
+
+.buttonCert {
+  background-color: #f5e50d;
+  padding: 16px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: 2s;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.buttonCert:hover {
+  transform: scale(1.1);
+  border: 2px solid rgb(175, 6, 6);
+}
+.anchorCert {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 19px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  transition: 1s;
+}
+.anchorCert:hover {
+  color: #fc1f10;
+}
+.gridcontainer {
+  
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+
+  grid-template-areas: "primaryContentgrid" "segundaryContentgrid" "Benefits" "imgfund" "part2" "threePart" "PrimeiroProcessoSegunda" "ProcessoUmPontodois"
+
+  padding: 100px;
+  padding-top: 50px;
+  flex: 1 0 auto;
+  gap: 20px;
+}
+.Desc {
+  grid-area: "Desc";
+}
+.primaryContentgrid {
+  grid-area: "primaryContentgrid";
+  min-width: 400px;
+  min-height: 440px;
+  border-radius: 16px;
+}
+.primaryContentgrid:hover {
+}
+
+.segundaryContentgrid {
+  grid-area: "segundaryContentgrid";
+  
+}
+.novaImg{
+  width: 35rem;
+}
+.video {
+  width: 100%;
+  min-height: 400px;
+  border-radius: 16px;
+}
+.Title {
+  /* padding: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: #0808c2;*/
+  text-align: center;
+  color: #011c57;
+  font-family: "Inter";
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+.titlesmall {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+}
+.butoonsolo {
+  text-align: center;
+}
+.Benefits {
+  padding: 20px;
+  min-width: 100%;
+}
+.descriptionBenefits {
+  text-align: center;
+}
+.benefitsOne {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 19px;
+  color: #011c57;
+}
+.listva {
+  padding: 20px 100px 0px;
+  list-style: none;
+  height: 1px;
+  height: 5px;
+}
+.liva {
+  padding: 9px;
+  font-size: 18px;
+  color: #011c57;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+.imgfund {
+  padding-top: 3em;
+  width: 100%;
+  min-height: 400px;
+  flex-wrap: wrap;
+}
+.fundoBenefits {
+  padding: 100px;
+}
+.textDescone {
+  height: 200px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: "Poppins";
+}
+.textdesc {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  padding-top: 15px;
+}
+.cert {
+  color: #fc1f10;
+}
+.textDesctwo {
+  text-align: center;
+}
+.buttonDescomplique {
+  background-color: #f9fafa;
+  border: 1px solid black;
+  margin: 1px;
+}
+.buttonCert {
+  margin-top: 17px;
+}
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.footer {
+  border-top: 1px solid #000000;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 3px;
+  background-color: #525252;
+  height: 200px;
+}
+.imgfooter {
+  height: 90px;
+  padding-top: 2em;
+  padding: 2em;
+  min-width: 15em;
+}
+.textfooterEnd {
+  color: #ffff;
+  padding: 1rem;
+  font-family: "Inter";
+  font-size: 13px;
+}
+.textfooterEnd2 {
+  color: #ffff;
+  font-family: "Inter";
+  font-size: 13px;
+  padding: 1em;
+}
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  cursor: pointer;
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
+.part2 {
+  grid-area: "part2";
+  grid-column: 1/4;
+  width: 100%;
+}
+
+.imgfund {
+  grid-area: "imgfund";
+  grid-column: 2/4;
+}
+
+.Benefits {
+  grid-area: "Benefits";
+  grid-column: 1/2;
+}
+
+.titlefuncionCertifique {
+  font-size: 30px;
+  font-family: "Inter";
+  text-align: center;
+}
+.descricaoPartThree {
+  padding-top: 15px;
+  font-family: "Inter";
+  font-size: 28px;
+}
+.threePart {
+  
+  text-align: center;
+  padding: 5% 5% 5%;
+  grid-area: "threePart";
+  grid-column: 1/4;
+}
+.PrimeiroProcesso {
+  padding-left: 130px;
+  grid-column: 1/2;
+  
+}
+.ProcessoUm {
+  width: 30rem;
+  border-radius: 26% 10%;
+}
+
+.PrimeiroProcessoSegunda {
+  
+  padding: 0px 0px 50px;
+  grid-column: 2/4;
+}
+.ProcessoUmPontodois {
+  width: 30rem;
+  border-radius: 10% 26%;
+}

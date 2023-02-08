@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.ContainerGeral {
+  flex: 1 0 auto;
+  padding: 30px;
+  gap: 19px;
+  background-color: #eaecee;
+}
+
+.certAnatel {
+  background-image: url(./img/novas-regras-da-anatel.png);
+  background-position: 0% 60%;
+  background-repeat: initial;
+
+  height: 6rem;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid black;
+}
+.titleAnatel {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 50px;
+  font-family: "Poppins";
+  color: #f0f0f0;
+}
+
+.descriptionPontotwo {
+  text-decoration: none;
+  color: #ff2600;
+  font-size: 24px;
+  font-weight: bold;
+}
+.contentPrimaryService {
+}
+.imgTwoService {
+}
+.sidebarService {
+}
+.textSidebar {
+}
+.ContainerGeral {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-areas: "mainContainerService  contentSecundaryService" "productCert productCert";
+}
+.mainContainerService {
+  grid-area: "mainContainerService";
+}
+.contentSecundaryService {
+  grid-area: "contentSecundaryService";
+}
+
+.imgSidebar {
+  margin-left: 5rem;
+  width: 50vh;
+  height: 400px;
+}
+.contentPrimaryService {
+  height: 400px;
+  width: 90%;
+
+  padding-top: 80px;
+}
+.descriptionOne {
+  font-size: 29px;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+.descriptionOnePontoUM {
+  font-weight: bold;
+}
+.descriptionPontothree {
+  font-size: 29px;
+  font-weight: 300;
+  font-family: "Poppins";
+}
+.imgTwoService {
+  margin-top: 120px;
+}
+.imgServiceWifi {
+  width: 100%;
+}
+.textSidebar {
+  margin-top: 6rem;
+  padding-left: 50px;
+}
+.textoneSidebar {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Inter";
+}
+.NegritoSidebarOne {
+  font-size: 29px;
+  font-family: "Inter";
+  color: #ff2600;
+}
+.textTwoSidebar {
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Poppins";
+}
+.NegritoSidebar {
+  font-weight: bold;
+}
+.productCert {
+  grid-area: "productCert";
+  grid-column: 1/4;
+  background-color: #f0f0f0;
+}
+.titleProduct {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 250%;
+  padding: 10px;
+}
+.listProduct {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 23px;
+  font-weight: 300;
+}
+.ato7280 {
+  text-decoration: none;
+  color: #ff2600;
+  font-weight: bold;
+}
+.contentProduct {
+  padding: 17px;
+}
+.imgtecnologia {
+  width: 50%;
+}
+.contentImagem {
+  display: flex;
+  justify-content: center;
+}
+.descriptionInfoAnatel {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 19px;
+}
+.imgTwoService {
+  background-color: #f0f0f0;
+}
+.imagemBeneficios {
+  text-align: center;
+  background-color: #eaecee;
+}
+.BeneficiosImpor {
+  width: 80vh;
+}
+.part2 {
+  background-color: #eaecee;
+  padding-bottom: 40px;
+}
+.textDescone {
+  background-color: #eaecee;
+  border: none;
+}
